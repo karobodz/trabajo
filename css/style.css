@@ -1,0 +1,160 @@
+* {
+    font-family: sans-serif;
+    color:#aaaaaa;
+    box-sizing: border-box;
+}
+
+.cap {
+    width: 100%;
+    background-color:#e6ecff;
+}
+
+.nave {
+  width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+.menu  li {
+    float: right;
+    align-items: right;
+  }
+  
+.menu  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.menu  li a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+  }
+
+.menu {
+    align-items: right ;
+    width: 100%;
+    text-align: center;
+    background-color: #88ac0b;
+}
+
+.main {
+ float: left;
+ width: 60%;
+ padding: 0 20px;
+}
+
+.main p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.left {
+  background-color: white;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: left;
+  font-size: 14px;
+ }
+
+ 
+ .left li a {
+  align-items: left;
+  display: inline-flex;
+  text-decoration: none;
+  color: #3385ff;
+ }
+
+.right {
+ float: left;
+ width: 20%;
+ padding: 15px;
+ margin-top: 7px;
+ text-align: center;
+}
+
+.webpg {
+    overflow:auto;
+}
+
+.copy {
+    background-color:#e5e5e5;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.left h2 {
+  font-size: 15px;
+  background-color: #e3e3e3;
+  color: #555;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px;
+}
+
+.main h2 {
+  color: #88ac0b;
+}
+
+.main h3 {
+  background: #eee;
+  color: #555;
+  font: bold;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.bullet {
+  margin-right: 5px;
+}
+
+/** Mapa **/
+.map {
+  max-width:100%;
+  overflow:hidden;
+  color:red;
+  width:500px;
+  height:500px;
+}
+
+.bodymap {
+  height:100%; 
+  width:100%;
+  max-width:100%;
+}
+
+.iframemap {
+  height:100%;
+  width:100%;
+  border:0;
+}
+
+.map-generator{
+  max-width: 100%; 
+  max-height: 100%; 
+  background: none;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .main, .right, .left {
+    width: 100%;
+  }
+}
